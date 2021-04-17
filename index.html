@@ -6,12 +6,81 @@
  <meta name="keywords" content="HTML5, CSS3, JavaScript">
  <meta name="autor" content="Daniel-Eduar-Edseld-Junior"/>
  <title>Página de videojuegos</title>
- <link rel="stylesheet" href="misestilos.css">
+ <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 10px;
+  text-align: left;
+  font-size: 25px;
+  color: white;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: super;
+  width: 30%;
+  font-size: 20px;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 30px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+center {
+  text-align: center;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%; 
+  src: center;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+
+
 </head>
 <body>
  <header>
- <h1>Roshan location</h1>
- </header>
+ <h1>Roshan location </h1>
+  </header>
  <nav>
  <ul>
  <li>Inicio</li>
@@ -20,27 +89,36 @@
  <li>Login</li>
  </ul>
  </nav>
- <section><article>
-     <hgroup><h1>Título del primer artìculo</h1><h2>Subtítulo del primer artículo</h2></hgroup>
+ <section>
+<article>
+<hgroup><h1>Título del primer artìculo</h1><h2>Subtítulo del primer artículo</h2></hgroup>
 <time datetime="16-042021">Publicado 16-04-2021</time>
+<<<<<<< HEAD
 <p> 
+=======
+<p>Sendeeripity. 
+>>>>>>> ad463612f4422382f068fdce882798e17276636a
 Asperiores inventore repellat dolore illum ad.
 Eaque veniam incidunt numquam amet iste tempora, 
 quasi temporibus doloribus, ipsum possimus quo tempore sed enim?</p>
-<img src="Images/mario 1.jpg" />
-<footer><p>Comentario 0</p></footer>
-<address><a href="https://www.certus.edu.pe/">Visita certus</a></address></article>
+<p class="center"><img src="Images/mario 1.jpg" />
+</article>
 <article><hgroup><h1>Título del segundo artìculo</h1><h2>Subtítulo del segundo artículo</h2></hgroup>
-    <time datetime="16-042021">Publicado 16-04-2021</time>
+<time datetime="16-042021">Publicado 16-04-2021</time>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
 Adipisci autem temporibus perferendis eum recusandae neque 
 fuga incidunt quas, laudantium, sed, sapiente quis! Molestiae
 facere tempore earum amet! Minima, harum quia dex.</p>
-<img src="Images/mario 2.jpg" /><footer><p>Comentario 1</p></footer></article>
+<p class="center"><img src="Images/mario 2.jpg" /> />
+</p></article>
  </section>
+<<<<<<< HEAD
  <aside>
  <blockquote cite="https://www.youtube.com/watch?v=sH9g77J92ns">Mensaje nùmero uno</blockquote>
  <blockquote>Super Mario bros 3</blockquote>
  </aside>
  <footer>Derechos reservados 2020-2021</footer>
 </body></html>
+=======
+  <footer>Derechos reservados 2020-2021</footer></body></html>
+>>>>>>> ad463612f4422382f068fdce882798e17276636a
