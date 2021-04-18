@@ -27,12 +27,8 @@
     .rubens{
         background-color:  #ccdddb;
         padding-inline-start: 1em;
-        width: 100%;}
-    .sailor{
-        background-color: #ccdddb;
-        padding-left: 1em;
-        width: 100%;}
-    .center{
+        width: 120%;}
+        .center{
         text-align: center;
         padding-inline-end: 4em;
         padding-bottom: 5%;
@@ -55,4 +51,5 @@ li{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+    text-emphasis-color: blue;
 }
