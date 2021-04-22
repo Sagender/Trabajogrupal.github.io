@@ -1,6 +1,6 @@
 
 .novita{
-    background-color: #001D39;
+    background-color: #b43c35;
     color: white;
     text-align: left;
     text-decoration: transparent;
@@ -14,7 +14,7 @@
 .adition{
     display: flex;
     justify-content: space-evenly;
-    background-color:#003D75;
+    background-color:#d3b112;
     margin: 0;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -25,7 +25,7 @@
     width: 100%;
     align-content: right; }
     .rubens{
-        background-color:  #ccdddb;
+        background-color: whitesmoke;
         padding-inline-start: 1em;
         width: 120%;}
         .center{
@@ -47,9 +47,12 @@ li{
     padding: 1em;
 }
 .root{
-    background-color: teal;
+    background-color: #b43c35;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     text-emphasis-color: blue;
+}
+.footer{
+    list-style: -moz-linear-gradient();
 }
