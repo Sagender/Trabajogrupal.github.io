@@ -1,0 +1,10 @@
+#cabecera, #logo{float: left;}
+#cabecera, #suscripcion{float: right;}
+#cabecera, #menu{ border: 2px solid #777;
+    background-color: orange;
+
+  }
+  ul, ul, li { margin: 4; padding: 0; list-style: none; }
+#cabecera { clear: both; }
+#menu { clear: both; }
+#menu ul#menu_principal li { display: inline; float: left;  background-color: orange;}
