@@ -1,3 +1,68 @@
+#cabecera, #logo {
+  float: left;
+  width: 10em;
+}
+
+#imagenlogo {
+  width: 3em;
+  height: 3em;
+}
+
+#cabecera, #suscripcion {
+  float: right;
+}
+
+#cabecera, #menu {
+  border: 2px;
+  background-color: #F0A30A;
+}
+
+#cabecera {
+  clear: both;
+}
+
+#menu {
+  width: 100%;
+  margin-top: 100px;
+}
+
+#menu_principal {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+  padding: 100px;
+  background: #F0A30A;
+  font-family: Indie+Flower, sans-serif
+}
+
+#menu_principal:hover {
+  background: papayawhip;
+}
+
+h1, h2 {
+  font-family: Indie Flower, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.articulo {
+  display: flex;
+  border: solid black;
+  padding: 0;
+  color: black;
+  background-color: #F0A30A;
+  margin-block-end: 2em;
+}
+
+.figure {
+  position: absolute;
+}
+
 body {
-  background-color:#b43c35;
+  background-color: #B43C35;
 }
