@@ -1,11 +1,13 @@
-h1{font-family: Indie+Flower, sans-serif;}
-#menu_principal{
-    text-decoration: none;
-    color:#fff;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: left;
-    padding: 50px;
-    background: orange;
-    font-family: Indie+Flower, sans-serif}
-body{background-image: url(Imagen/Portada.jpeg);}
+
+
+body{background-image: url(Imagen/Portada.jpeg);
+background-size: 1600px;}
+h1,h2{
+    font-family: Indie Flower,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+font-size: 8em;}
+.w3-button {width:150px;
+color: red;
+bottom: unset;}
+#logo{position: sticky;}
+
