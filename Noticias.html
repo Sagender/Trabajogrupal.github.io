@@ -28,7 +28,6 @@
           </form>
         </div>
       </div>
-
       <div class="menu"><span class="icono" id="botonmenu"></i></span><i class="fas fa-bars"></i>
         <nav id="menu">
           <ul id="menu_principal">
@@ -42,14 +41,16 @@
     </header>
     <div class="container">
       <div class="row">
-        <h1>Noticias</h1>
+        <element class="destacado">
+          <h1>Noticias</h1>
+        </element>
       </div>
     </div>
     <section>
       <div class="container">
         <div class="row">
           <div class="col-lg-6  about-img order-lg-2 wow fadeInCEnter" data-wow-delay="0s" data-wow-duration="1.9s">
-            <img src="Imagenes_noticias/noticia 1.jpeg" alt="100" width="500" height="500">
+            <img class="figure" src="Imagenes_noticias/noticia 1.jpeg" alt="100" width="400" height="400">
           </div>
           <div class="col-lg-6 content order-lg-1 wow fadeInLeft" data-wow-delay="0s" data-wow-duration="1.9s">
             <h1>Noticias recientes:</h1>
@@ -59,40 +60,44 @@
     </section>
     <section>
       <article class="articulo">
-        <h2>30 años de Street Fighter II, el juego que redefinio la lucha </h2>
-        <figure><img class="detalles" src="Imagenes_noticias/noticia 2.jpeg"
-            alt="30 años de Street Fighter II, el juego que redefinio la lucha" width="300px" height="300px"></figure>
-        <p>Este mes, el legendario título de Capcom alcanza las tres décadas de existencia. Miramos hacia atrás y
-          recordamos
-          su importancia para el género.</p>
+        <div><img class="derecha" src="Imagenes_noticias/30 años.jpg" alt="2" width="300" height="300"><div>
+        <div>
+          <h2>30 años de Street Fighter II, el juego que redefinio la lucha</h2>
+          <p>Este mes, el legendario título de Capcom alcanza las tres décadas de existencia. Miramos hacia atrás y
+            recordamos
+            su importancia para el género. 
+        Aptent felis ullamcorper mollis libero conubia lobortis molestie senectus curabitur, neque turpis
+            scelerisque vel dictumst tempus sagittis tristique natoque sapien, hendrerit posuere convallis
+            cras porta gravida est ut. Ac placerat aliquam orci himenaeos vel integer faucibus mollis
+            dictumst scelerisque penatibus, congue pulvinar sociosqu massa mattis vehicula cum proin
+            potenti. Imperdiet mollis posuere purus mi viverra eu torquent orci aliquet eget nisi senectus
+            consequat donec porta pharetra, enim dis augue vehicula curabitur laoreet sollicitudin
+            pellentesque sed tempus quisque tincidunt pulvinar ultricies.</p>
+        </div>
       </article>
       <article class="articulo">
-        <h2>Asi es Capcom Retro Station, una nueva consola recreativa con 10 juegos clásicos</h2>
-        <figure><img class="detalles" src="Imagenes_noticias/noticia 3.jpeg"
-            alt="Asi es Capcom Retro Station, una nueva consola recreativa con 10 juegos clásicos" width="300px"
-            height="300px"></figure>
-        <p>Amazon Japan adelanta antes de tiempo la existencia de esta nueva consola “mini”, que es realmente una
-          máquina
-          arcade de mesa con varios juegos.</p>
+        <div><img class="izquierda" src="Imagenes_noticias/capcon.jpg" alt="2" width="300" height="300"><div>
+        <div>
+          <h2>Asi es Capcom Retro Station, una nueva consola recreativa con 10 juegos clásicos</h2>
+          <p>Amazon Japan adelanta antes de tiempo la existencia de esta nueva consola “mini”, que es realmente una
+            máquina
+            arcade de mesa con varios juegos.
+        Aptent felis ullamcorper mollis libero conubia lobortis molestie senectus curabitur, neque turpis
+            scelerisque vel dictumst tempus sagittis tristique natoque sapien, hendrerit posuere convallis
+            cras porta gravida est ut. Ac placerat aliquam orci himenaeos vel integer faucibus mollis
+            dictumst scelerisque penatibus, congue pulvinar sociosqu massa mattis vehicula cum proin
+            potenti. Imperdiet mollis posuere purus mi viverra eu torquent orci aliquet eget nisi senectus
+            consequat donec porta pharetra, enim dis augue vehicula curabitur laoreet sollicitudin
+            pellentesque sed tempus quisque tincidunt pulvinar ultricies.</p>
+        </div>
       </article>
       <articlec class="articulo">
-        <h2>Plex Arcade es el nuevo servicio de transmisión de juegos retros de Atari y clásicos de Nintendo</h2>
-        <figure><img class="detalles" src="Imagenes_noticias/notica 4.jpg"
-            alt="Plex Arcade es el nuevo servicio de transmisión de juegos retros de Atari y clásicos de Nintendo"
-            width="300px" height="300px"></figure>
+        <div><img class="derecha" src="Imagenes_noticias/plex.jpg" alt="2" width="300" height="300"><div>
+        </div>
+        <h2>Plex Arcade es el nuevo servicio de transmisión de juegos retros de Atari y clásicos de Nintendo</h2>   
         <p>La transmisión de juegos en la nube está siendo la novedad en varias compañías, ahora Plex Arcade te permite
           jugar los títulos clásicos en dispositivos Android, Android TV y más. </p>
         </article>
-
-        <articlec class="articulo">
-          <h2>La pandemia golpea a Sega: Compañía vende su negocio de arcade debido al COVID-19</h2>
-          <figure><img class="detalles" src="Imagenes_noticias/noticia 5.jpeg"
-              alt="La pandemia golpea a Sega: Compañía vende su negocio de arcade debido al COVID-19" width="300px"
-              height="300px"></figure>
-          <p>SEGA tuvo que vender el 85,1% de las acciones relacionadas con la división de juegos arcade para no quedar
-            en
-            números rojos este 2020</p>
-          </article>
     </section>
 
   </body>
@@ -105,8 +110,11 @@
     <li>twicth</li>
     <li>twiter</li>
   </div>
-</footer>
-<div>Derechos reservados Roshan Location 2021</div>
+<footer class="root"> <div><li>Facebook</li>
+  <li>correo</li>
+  <li>twicth</li>
+  <li>twiter</li></div></footer>
+ <div>Derechos reservados Roshan Location 2021</div>
 </body>
 
 </html>
