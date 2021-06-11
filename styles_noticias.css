@@ -1,3 +1,101 @@
-body {
-  background-color:#b43c35;
+#cabecera, #logo {
+  float: left;
+  width: 10em;
+}
+
+#imagenlogo {
+  width: 2em;
+  height: 2em;
+}
+
+#cabecera, #suscripcion {
+  float: right;
+}
+
+#cabecera, #menu {
+  border: 4px;
+  background-color: #f2aa1f;
+}
+
+#cabecera {
+  clear: both;
+}
+
+#menu {
+  width: 100%;
+  margin-top: auto;
+}
+
+#menu_principal {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 55px;
+  font-family: Indie Flower, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  list-style-type: none;
+  font-size: 2em;
+}
+
+h1, h2 {
+  font-family: Indie Flower, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
+  color: #4682b4;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.articulo {
+  display: flex;
+  border: solid black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 0;
+  color: whitesmoke;
+  background-image: url(https://i.pinimg.com/originals/9b/c9/8f/9bc98f55db5737c6b9601ea215f14467.jpg);
+  background-size: 1600px;
+  ;
+  margin-right: 6em;
+  margin-left: 6em;
+  margin-block-end: 30px;
+}
+
+.figure {
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: auto;
+}
+
+.destacado, #h1 {
+  text-align: center;
+}
+
+.derecha {
+  float: right;
+}
+
+.izquierda {
+  float: left;
+}
+
+.root{
+  margin-top: 3em;
+  border: 4px ;
+  background-color: #f2aa1f;
+  width: 100%;
+  color:black;
+  font-family: Indie Flower,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:1em;
+}
+.end{
+ float: right;
+}
+.social{
+padding: 20px;
+
 }

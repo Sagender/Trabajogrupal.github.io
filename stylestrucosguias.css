@@ -52,13 +52,17 @@
     }
     
     .jp {
+
         padding: 20px;
         color: black;
+
         margin-right: 20em;
         margin-left: 20em;
         margin-block-end: 1em;
         font-family: Indie Flower, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
         background-image: url();
+
     }
     /**.jp {
         border: solid black;
@@ -135,11 +139,13 @@
     /****html***/
     
     #sub-fondo {
+
         background-image: url(https://img.freepik.com/foto-gratis/muro-hormigon-blanco_53876-92803.jpg?size=626&ext=jpg);
     }
     /***body**/
     
     .fondo {
+
         padding: 1em;
         background-image: url(https://images.unsplash.com/photo-1546453667-8a8d2d07bc20?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGV4dHVyZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
     }
@@ -168,4 +174,5 @@
         margin-top: 20px;
         margin-bottom: 20px;
         margin-right: 10px;
+
     }
