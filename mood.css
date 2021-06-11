@@ -22,10 +22,12 @@
 #cabecera, #menu{ 
     border: 4px ;
     background-color: #f2aa1f;
+
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
   
     padding:0;
+
   }
   .correo{border-top: 12px;}
 #cabecera { clear: both; }
@@ -46,7 +48,9 @@
     font-family: Indie Flower,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     list-style-type: none;  
     font-size:2em;
+
     margin: auto
+
   }
   #menu_principal:hover{
     color: #515151;
@@ -123,3 +127,4 @@ p{      font-family: Indie Flower,'Franklin Gothic Medium', 'Arial Narrow', Aria
       display: auto;
       margin-right: 4em;
 }
+

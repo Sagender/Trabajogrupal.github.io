@@ -4,8 +4,8 @@
 }
 
 #imagenlogo {
-  width: 3em;
-  height: 3em;
+  width: 2em;
+  height: 2em;
 }
 
 #cabecera, #suscripcion {
@@ -13,8 +13,8 @@
 }
 
 #cabecera, #menu {
-  border: 2px;
-  background-color: #F0A30A;
+  border: 4px;
+  background-color: #f2aa1f;
 }
 
 #cabecera {
@@ -23,7 +23,7 @@
 
 #menu {
   width: 100%;
-  margin-top: 100px;
+  margin-top: auto;
 }
 
 #menu_principal {
@@ -31,19 +31,16 @@
   color: #fff;
   display: flex;
   justify-content: space-evenly;
-  text-align: left;
-  padding: 100px;
-  background: #F0A30A;
-  font-family: Indie+Flower, sans-serif
-}
-
-#menu_principal:hover {
-  background: papayawhip;
+  padding: 55px;
+  font-family: Indie Flower, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  list-style-type: none;
+  font-size: 2em;
 }
 
 h1, h2 {
   font-family: Indie Flower, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: xx-large;
+  color: #4682b4;
 }
 
 h1 {
@@ -53,16 +50,52 @@ h1 {
 .articulo {
   display: flex;
   border: solid black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
   padding: 0;
-  color: black;
-  background-color: #F0A30A;
-  margin-block-end: 2em;
+  color: whitesmoke;
+  background-image: url(https://i.pinimg.com/originals/9b/c9/8f/9bc98f55db5737c6b9601ea215f14467.jpg);
+  background-size: 1600px;
+  ;
+  margin-right: 6em;
+  margin-left: 6em;
+  margin-block-end: 30px;
 }
 
 .figure {
-  position: absolute;
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: auto;
 }
 
-body {
-  background-color: #B43C35;
+.destacado, #h1 {
+  text-align: center;
+}
+
+.derecha {
+  float: right;
+}
+
+.izquierda {
+  float: left;
+}
+
+.root{
+  margin-top: 3em;
+  border: 4px ;
+  background-color: #f2aa1f;
+  width: 100%;
+  color:black;
+  font-family: Indie Flower,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:1em;
+}
+.end{
+ float: right;
+}
+.social{
+padding: 20px;
+
 }
