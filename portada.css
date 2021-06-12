@@ -1,16 +1,14 @@
 
 
 body{background-image: url(Imagen/Portada.jpeg);
-background-size: 1600px;}
+background-size: 2000px;}
 h1,h2{
     font-family: Indie Flower,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
 font-size: 8em;}
-
 h1 {
   padding-left: 2em;
 }
-
 .boton {
     width:200px;
     color: red;

@@ -1,35 +1,44 @@
 /*Estilo de la cabecera*/
 .fondo{
       padding: 1em;
-      background-image: url(https://images.unsplash.com/photo-1546453667-8a8d2d07bc20?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGV4dHVyZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
-      }
+      background-image: url(Imagen/fondo.jpeg);
+      margin-right: 8em;
+      margin-left: 8em;
+}
 .subfondo{
-      background-image: url(https://img.freepik.com/foto-gratis/muro-hormigon-blanco_53876-92803.jpg?size=626&ext=jpg);
+      background-image: url(Imagen/subfondo.jpg);
       padding-block-end: -3em;
       border-bottom-right-radius: 20px;
       border-bottom-left-radius: 20px;
-      padding:0;
-}
+      }
 #cabecera, #logo{
     float: left; 
-    width: 10em;}
+    width: 10em;
+}
+.phantom{
+     display: flex;
+      background-color: rgb(18, 78, 131);
+      margin: 0;
+width: 75%;
+      
+}
 #imagenlogo{
     width: 2em;
     height: 2em;
   }
 #cabecera, #suscripcion{
-    float: right;}
+    float: right;
+padding-top: 2em;
+margin-top: 2em;
+margin-right: 2em;}
 #cabecera, #menu{ 
     border: 4px ;
     background-color: #f2aa1f;
-
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-  
-    padding:0;
-
+   padding:0;
   }
-  .correo{border-top: 12px;}
+.correo{border-top: 12px;}
 #cabecera { clear: both; }
 /*Estilo del menu*/
 #menu {
@@ -37,24 +46,19 @@
     margin-top: 5px;
 }
 #menu_principal{
-/*border: solid black;
-    margin-top: 10em;
-    background-color: aliceblue;*/
     text-decoration: none;
     color:#fff;
     display: flex;
     justify-content: space-evenly;
-    padding: 55px;
+    padding: 40px;
     font-family: Indie Flower,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     list-style-type: none;  
-    font-size:2em;
-
+   font-size:2em;
     margin: auto
-
   }
   #menu_principal:hover{
     color: #515151;
-    text-decoration: underline;
+      
     }
    
   h1,h2{
@@ -67,8 +71,10 @@
       }
 p{      font-family: Indie Flower,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-size:large;}
-      .hero{
+.hero{
         font-size:3em;
+       
+        padding-right: 8em;
       }
 /*Estilo del contenido*/
 .articulo{
@@ -85,6 +91,7 @@ p{      font-family: Indie Flower,'Franklin Gothic Medium', 'Arial Narrow', Aria
       margin-right: 4em;
       margin-left: 6em;
       margin-block-end: 2em;
+      
 }
 .figure{
       position: absolute;}
@@ -125,6 +132,8 @@ p{      font-family: Indie Flower,'Franklin Gothic Medium', 'Arial Narrow', Aria
       margin-left: 6em;
       display: flex;
       display: auto;
-      margin-right: 4em;
+      margin-right: 6em;
 }
-
+.detalles{
+      margin-block-start: 2em;
+}

@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="Indie_Flower" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="mood.css">
+    <link rel="stylesheet" href="mood.css" id="theme">
 </head>
 <header class="contenedor">
     <div class="cabecera">
@@ -26,23 +26,26 @@
         <div>
             <nav id="menu">
                 <ul id="menu_principal">
-                    <img  width="40" height="60" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik00OTIsMjM2SDIwYy0xMS4wNDYsMC0yMCw4Ljk1NC0yMCwyMGMwLDExLjA0Niw4Ljk1NCwyMCwyMCwyMGg0NzJjMTEuMDQ2LDAsMjAtOC45NTQsMjAtMjBTNTAzLjA0NiwyMzYsNDkyLDIzNnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCgk8Zz4NCgkJPHBhdGggZD0iTTQ5Miw3NkgyMEM4Ljk1NCw3NiwwLDg0Ljk1NCwwLDk2czguOTU0LDIwLDIwLDIwaDQ3MmMxMS4wNDYsMCwyMC04Ljk1NCwyMC0yMFM1MDMuMDQ2LDc2LDQ5Miw3NnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCgk8Zz4NCgkJPHBhdGggZD0iTTQ5MiwzOTZIMjBjLTExLjA0NiwwLTIwLDguOTU0LTIwLDIwYzAsMTEuMDQ2LDguOTU0LDIwLDIwLDIwaDQ3MmMxMS4wNDYsMCwyMC04Ljk1NCwyMC0yMA0KCQkJQzUxMiw0MDQuOTU0LDUwMy4wNDYsMzk2LDQ5MiwzOTZ6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" />
-                    <li><a href=""> <strong>Inicio</strong></a></li>
-                    <li><a href=""><strong>Noticias</strong></a></li>
-                    <li><a href="#"><strong>Guias y trucos</strong></a></li>
-                    <li><a href="#"><strong>Contáctanos</strong></a></li>
-                    <img  width="40" height="60" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPGc+DQoJCTxwYXRoIGQ9Ik00OTIsMjM2SDIwYy0xMS4wNDYsMC0yMCw4Ljk1NC0yMCwyMGMwLDExLjA0Niw4Ljk1NCwyMCwyMCwyMGg0NzJjMTEuMDQ2LDAsMjAtOC45NTQsMjAtMjBTNTAzLjA0NiwyMzYsNDkyLDIzNnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCgk8Zz4NCgkJPHBhdGggZD0iTTQ5Miw3NkgyMEM4Ljk1NCw3NiwwLDg0Ljk1NCwwLDk2czguOTU0LDIwLDIwLDIwaDQ3MmMxMS4wNDYsMCwyMC04Ljk1NCwyMC0yMFM1MDMuMDQ2LDc2LDQ5Miw3NnoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCgk8Zz4NCgkJPHBhdGggZD0iTTQ5MiwzOTZIMjBjLTExLjA0NiwwLTIwLDguOTU0LTIwLDIwYzAsMTEuMDQ2LDguOTU0LDIwLDIwLDIwaDQ3MmMxMS4wNDYsMCwyMC04Ljk1NCwyMC0yMA0KCQkJQzUxMiw0MDQuOTU0LDUwMy4wNDYsMzk2LDQ5MiwzOTZ6Ii8+DQoJPC9nPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" />
-                </ul>
+                  <img  width="40" height="60" src="Imagen/menu.svg" />
+                  <li><a href="index.html"> <strong>Inicio</strong></a></li>
+                  <li><a href="noticias.html"><strong>Noticias</strong></a></li>
+                  <li><a href="trucosguias.html"><strong>Guias y trucos</strong></a></li>
+                  <li><a href="contactos.html"><strong>Contáctanos</strong></a></li>
+                  <img  width="40" height="60" src="Imagen/menu.svg" />
+              </ul>
+          </nav>
             </nav>
 
-
         </div>
+        
 <body class="fondo">
     <div class="subfondo">
-   
+        <div>
+            <button onclick="switchSheet()">&#x263e;</button>
+          </div>
+              <script src="modonoche.js"></script>
             <section class="destacado">
-                <img style="margin: auto;" src="Imagen/destacado1.jpg" alt="">
-
+                 <div><img width="900" height="550"" src="Imagen/destacado1.jpg" alt="bomberman"></div>
                 <h1 class="title">Destacado</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dis curae, enim lacinia litora id cum
                     donec egestas tincidunt potenti, aenean ornare fusce praesent per eget suspendisse libero. Lacus
@@ -89,7 +92,6 @@
                     </Div>
                 </article>
                 <article class="articulo">
-
                     <div>
                         <figure><img class="detalles" width="200" height="280" src="Imagen/mario3.jpg" alt="Mario">
                         </figure>
@@ -150,7 +152,6 @@
                     </div>
                     <div>
                         <h2>Pacman</h2>
-
                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dis curae, enim lacinia litora id cum
                             donec egestas tincidunt potenti, aenean ornare fusce praesent per eget suspendisse libero.
                             Lacus
@@ -169,7 +170,6 @@
                             senectus
                             consequat donec porta pharetra, enim dis augue vehicula curabitur laoreet sollicitudin
                             pellentesque sed tempus quisque tincidunt pulvinar ultricies.</p>
-
                     </div>
 
                 </article>
@@ -180,7 +180,6 @@
                     </div>
                     <div>
                         <h2>Donkey-kong</h2>
-
                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit dis curae, enim lacinia litora id cum
                             donec egestas tincidunt potenti, aenean ornare fusce praesent per eget suspendisse libero.
                             Lacus
@@ -199,33 +198,30 @@
                             senectus
                             consequat donec porta pharetra, enim dis augue vehicula curabitur laoreet sollicitudin
                             pellentesque sed tempus quisque tincidunt pulvinar ultricies.</p>
-
                     </div>
 
                 </article>
             </section>
             <section>
                 <h1 class="hero">Vídeos</h1>
-
                 <div class="videos">
                     <div>
-                        <iframe width="450" height="315" src="https://www.youtube.com/embed/rLl9XBg7wSs"
+                        <iframe width="350" height="215" src="https://www.youtube.com/embed/rLl9XBg7wSs"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
-                    <div><iframe width="450" height="315" src="https://www.youtube.com/embed/eaimRPI0slU"
+                    <div><iframe width="350" height="215" src="https://www.youtube.com/embed/eaimRPI0slU"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe></div>
-                    <div><iframe width="450" height="315" src="https://www.youtube.com/embed/2mWZlNOzdv8"
+                    <div><iframe width="350" height="215" src="https://www.youtube.com/embed/2mWZlNOzdv8"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe></div>
                 </div>
             </section>
             <footer class="root">
-
                 <div class="social">
                     <li ><a> <img width="16" height="15" src="imagen/Logoface.png" alt=""> <strong> Facebook</strong></a></li>
                     <li><a> <img width="16" height="15" src="imagen/logoinsta.png" alt=""><strong> Instagram</strong></a></li>
@@ -236,7 +232,6 @@
         </div>
         </footer>
     </div>
-
 </body>
 
 </html>
