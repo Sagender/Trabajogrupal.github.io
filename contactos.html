@@ -8,69 +8,73 @@
     <title>Roshanlocation</title>
     <link rel="icon" type="image/png" href="Imagen/logo 2.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="Indie_Flower" rel="stylesheet">
+    <!---- <link href="Indie_Flower" rel="stylesheet">--->
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="mood.css">
+    <link rel="stylesheet" href="contactos.css">
 </head>
 <header class="contenedor">
     <div class="cabecera">
         <div id="logo">
-            <figure class="Imagenlogo"><img width="160" height="160" src="Imagen/Logo.png" alt="Logoroshanlocation"></figure>
+            <figure class="Imagenlogo"><img width="160" height="160" src="Imagen/Logo.png" alt="Logoroshanlocation">
+            </figure>
         </div>
         <div id="suscripcion">
-            <form  class="correo" action="/suscripcion/"><input type="text"
-                    placeholder="Tu correo electrónico"><button>Suscribirse</button>
+            <form class="correo" action="/registrate/"><input type="text" placeholder="Tu correo electrónico"><button>Registrate</button>
             </form>
-        </div> </div>
-</header>
-        <div>
-            <nav id="menu">
-                <ul id="menu_principal">
-                  <img  width="40" height="60" src="Imagen/menu.svg" />
-                  <li><a href="index.html"> <strong>Inicio</strong></a></li>
-                  <li><a href="noticias.html"><strong>Noticias</strong></a></li>
-                  <li><a href="trucosguias.html"><strong>Guias y trucos</strong></a></li>
-                  <li><a href="contactos.html"><strong>Contáctanos</strong></a></li>
-                  <img  width="40" height="60" src="Imagen/menu.svg" />
-              </ul>
-          </nav>
-
         </div>
-<body class="fondo">
-    <div class="subfondo">
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <form class="formulario-contacto">
-                <fieldset>
-                    <legend>Todos los campos son obligatorios</legend>
-                    <div class="contenedor-campos">
-                        <div class="campo">
-                            <label>Nombre:</label>
-                            <input id="nombre" class="input-text" type="text" placeholder="ingresa tu nombre">
-                        </div>
-                        <div class="campo">
-                            <label for="">Telefono</label>
-                            <input id="telefono" class="input-text" type="number" placeholder="ingresa tu teléfono">
-                        </div>                
-                        <div class="campo">
-                            <label>Correo:</label>
-                            <input id="correo" class="input-text" type="email" placeholder="ingresa tu correo">
-                        </div>
-                        <div class="campo">
-                            <label>Mensaje:</label>    
-                            <textarea id="mensaje" class="input-text"></textarea>
-                        </div>                    
-                    </div>
-                    <div class="enviar">
-                        <input id="botonEnviar" class="boton" type="submit" value="Enviar">
-                    </div>
-                </fieldset>
-            </form>
-        </section>
-            
-        </div>
-        </footer>
     </div>
+</header>
+<div>
+    <nav id="menu">
+        <ul id="menu_principal">
+            <img width="40" height="60" src="Imagen/menu.svg" />
+            <li>
+                <a href="index.html"> <strong>Inicio</strong></a>
+            </li>
+            <li><a href="noticias.html"><strong>Noticias</strong></a></li>
+            <li><a href="trucosguias.html"><strong>Guias y trucos</strong></a></li>
+            <li><a href="contactos.html"><strong>Contáctanos</strong></a></li>
+            <img width="40" height="60" src="Imagen/menu.svg" />
+        </ul>
+    </nav>
+
+</div>
+
+<main class="contenedor sombra">
+    <section id="contacto">
+        <form class="formulario-contacto">
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre:</label>
+                        <input id="nombre" class="input-text" type="text" placeholder="ingresa tu nombre">
+                    </div>
+                    <div class="campo">
+                        <label for="">Telefono</label>
+                        <input id="telefono" class="input-text" type="number" placeholder="ingresa tu teléfono">
+                    </div>
+                    <div class="campo">
+                        <label>Correo:</label>
+                        <input id="correo" class="input-text" type="email" placeholder="ingresa tu correo">
+                    </div>
+                    <div class="campo">
+                        <label>Mensaje:</label>
+                        <textarea id="mensaje" class="input-text" maxlength="10"></textarea>
+                    </div>
+                </div>
+                <div class="enviar">
+                    <input id="botonEnviar" class="boton" type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>Todos los derechos reservados</p>
+</footer>
+<script src="contactos.js"></script>
 </body>
 
 </html>
