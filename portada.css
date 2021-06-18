@@ -17,7 +17,7 @@ h1 {
     font-size: 4em;
     display:block;
     margin:auto;
-      border: solid black;
+    border: solid black;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
@@ -27,4 +27,7 @@ h1 {
   margin-left: 10em;
 margin-top: 8em; }
 
-
+.bienvenida{
+  color:black;
+  text-align: center;
+}

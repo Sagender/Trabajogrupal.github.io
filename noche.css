@@ -1,11 +1,11 @@
 .fondo{
     padding: 1em;
-    background-image: url(Imagen/fondo.jpeg);
+    background-image: url(Imagen/fondodark.jpg);
     margin-right: 8em;
     margin-left: 8em;
 }
 .subfondo{
-    background-image: url(Imagen/subfondo.jpg);
+    background-image: url(Imagen/subfondo2.jpg);
     padding-block-end: -3em;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -60,7 +60,7 @@ h1,
 h2 {
     font-family: Indie Flower, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: xx-large;
-    color: #4682b4;
+    color:white;
 }
 
 .figure {
@@ -81,19 +81,6 @@ h2 {
     border-radius: 20px;
 }
 
-.cabezera {
-    display: flex;
-    font-size: 1em;
-    padding: 0.5em;
-    border-radius: 20px;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: space-between;
-    align-items: center;
-    background-color: aquamarine;
-}
 /***footer***/
 /*Estilo del pie de página*/
 .root{
@@ -126,6 +113,7 @@ h2 {
 }
 
 p {
+    color: white;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;

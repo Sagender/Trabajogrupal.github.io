@@ -6,4 +6,4 @@ function switchSheet() {
     } else {
       theme.href = "mood.css";
     }
-  }
+    }

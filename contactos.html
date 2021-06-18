@@ -10,7 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="Indie_Flower" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="mood.css">
+    <link rel="stylesheet" href="contactos.css">
+    <link rel="stylesheet" href="mood.css" id="theme">
 </head>
 <header class="contenedor">
     <div class="cabecera">
@@ -38,39 +39,52 @@
         </div>
 <body class="fondo">
     <div class="subfondo">
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <form class="formulario-contacto">
-                <fieldset>
-                    <legend>Todos los campos son obligatorios</legend>
-                    <div class="contenedor-campos">
-                        <div class="campo">
-                            <label>Nombre:</label>
-                            <input id="nombre" class="input-text" type="text" placeholder="ingresa tu nombre">
-                        </div>
-                        <div class="campo">
-                            <label for="">Telefono</label>
-                            <input id="telefono" class="input-text" type="number" placeholder="ingresa tu teléfono">
-                        </div>                
-                        <div class="campo">
-                            <label>Correo:</label>
-                            <input id="correo" class="input-text" type="email" placeholder="ingresa tu correo">
-                        </div>
-                        <div class="campo">
-                            <label>Mensaje:</label>    
-                            <textarea id="mensaje" class="input-text"></textarea>
-                        </div>                    
-                    </div>
-                    <div class="enviar">
-                        <input id="botonEnviar" class="boton" type="submit" value="Enviar">
-                    </div>
-                </fieldset>
-            </form>
-        </section>
-            
+        <div>
+            <button onclick="switchSheet()">&#x263e;</button>
+          </div>
+              <script src="modonoche.js"></script>
+              <main class="contenedor sombra">
+                <section id="contacto">
+                    <form class="formulario-contacto">
+                        <fieldset>
+                            <legend>Formulario de contacto</legend>
+                            <div class="contenedor-campos">
+                                <div class="campo">
+                                    <label>Nombre:</label>
+                                    <input id="nombre" class="input-text" type="text" placeholder="ingresa tu nombre">
+                                </div>
+                                <div class="campo">
+                                    <label for="">Telefono</label>
+                                    <input id="telefono" class="input-text" type="number" placeholder="ingresa tu teléfono">
+                                </div>
+                                <div class="campo">
+                                    <label>Correo:</label>
+                                    <input id="correo" class="input-text" type="email" placeholder="ingresa tu correo">
+                                </div>
+                                <div class="campo">
+                                    <label>Mensaje:</label>
+                                    <textarea id="mensaje" class="input-text" maxlength="10"></textarea>
+                                </div>
+                            </div>
+                            <div class="enviar">
+                                <input id="botonEnviar" class="boton" type="submit" value="Enviar">
+                            </div>
+                        </fieldset>
+                    </form>
+                </section>
+            </main>
         </div>
-        </footer>
-    </div>
+    </section>
+    <footer class="root">
+        <div class="social">
+            <li ><a> <img width="16" height="15" src="imagen/Logoface.png" alt=""> <strong> Facebook</strong></a></li>
+            <li><a> <img width="16" height="15" src="imagen/logoinsta.png" alt=""><strong> Instagram</strong></a></li>
+            <li><a><img  width="16" height="15" src="imagen/logotwit.png" alt=""><strong> Twicht</strong></a></li>
+            <li><a><img  width="16" height="15" src="imagen/logotwitter.png" alt=""><strong> Twitter</strong></a></li>
+        </div>
+        <divc class="end">Derechos reservados-Roshan Location 2021
+</div>
+</footer>
 </body>
 
 </html>
